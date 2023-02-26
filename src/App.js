@@ -1,7 +1,8 @@
 import './App.css';
 // import Header from './Components/Header';
 // import { Footer,Footer2 } from './Components/Footer';
-import Resturant from './Components/Basics/Resturant';
+// import Resturant from './Components/Basics/Resturant';
+import UseState from './Components/Hooks/UseState';
 
 function App() {
   return (
@@ -19,8 +20,11 @@ function App() {
       </footer>
     </div> */}
     
-    {/* Resturant */}
-    <div><Resturant/></div>
+    {/* Resturant Menu*/}
+    {/* <div><Resturant/></div> */}
+
+    {/* React Hooks */}
+    <UseState/>
 
     </>
   );
