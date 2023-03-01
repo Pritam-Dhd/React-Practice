@@ -2,7 +2,8 @@ import './App.css';
 // import Header from './Components/Header';
 // import { Footer,Footer2 } from './Components/Footer';
 // import Resturant from './Components/Basics/Resturant';
-import UseState from './Components/Hooks/UseState';
+// import UseState from './Components/Hooks/UseState';
+import RouteX from './Components/Login&SignUp/Route';
 
 function App() {
   return (
@@ -24,8 +25,10 @@ function App() {
     {/* <div><Resturant/></div> */}
 
     {/* React Hooks */}
-    <UseState/>
+    {/* <UseState/> */}
 
+    {/* Login and SignUp */}
+    <RouteX/>
     </>
   );
 }
