@@ -1,0 +1,93 @@
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+  
+.banner{
+    position: relative;
+    height: 500px;
+    /* background-color: rgb(16, 16, 16); */
+    background-size: cover;
+    background-repeat: no-repeat ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+}
+h1,p,button{
+    margin-left: 20px!important;
+    text-align: left;
+    color: white;
+}
+.banner>p{
+    width:40%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.Option{
+    display: flex;
+    margin-left: 18px;
+}
+.play{
+    color: black;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    margin: 15px;
+    transition: all 0.5s;
+    background-color: white ;
+    border-radius: 10px;
+    outline: none;
+}
+.button>svg{
+    font-size: 20px;
+    margin-left: 8px;
+}
+.row{
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: auto!important;
+    text-align: left;
+    color: white;
+}
+.image {
+    display: flex;
+    overflow-x: auto!important;
+}
+  
+.Card{
+    width: 200px;
+    margin:1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Card:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+.genreBox{
+    overflow-x: auto;
+    display: flex;
+    height:100px;
+    background-color: rgb(16, 16, 16);
+    align-items: center;
+}
+.genreBox>a{
+    background-color: aliceblue;
+    color:black;
+    padding: 1rem 0;
+    transition: 0.5s;
+    margin: 1rem;
+    min-width: 10rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.genreBox>a:hover{
+    background-color: rgb(14, 143, 236);
+}

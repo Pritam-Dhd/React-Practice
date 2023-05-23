@@ -3,7 +3,8 @@ import './App.css';
 // import { Footer,Footer2 } from './Components/Footer';
 // import Resturant from './Components/Basics/Resturant';
 // import UseState from './Components/Hooks/UseState';
-import RouteX from './Components/Login&SignUp/Route';
+// import RouteX from './Components/Login&SignUp/Route';
+import RouteX from './Components/Netflix/Route';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
     {/* <UseState/> */}
 
     {/* Login and SignUp */}
-    <RouteX/>
+    {/* <RouteX/> */}
+    {<RouteX/>}
     </>
   );
 }

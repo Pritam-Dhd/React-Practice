@@ -1,0 +1,10 @@
+.scroll-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .scroll-icon {
+    cursor: pointer;
+    margin: 0 5px;
+  }
