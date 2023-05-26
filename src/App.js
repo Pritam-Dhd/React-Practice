@@ -4,7 +4,8 @@ import './App.css';
 // import Resturant from './Components/Basics/Resturant';
 // import UseState from './Components/Hooks/UseState';
 // import RouteX from './Components/Login&SignUp/Route';
-import RouteX from './Components/Netflix/Route';
+// import RouteX from './Components/Netflix/Route';
+import OOP from './Components/OOP/OOP';
 
 function App() {
   return (
@@ -30,7 +31,12 @@ function App() {
 
     {/* Login and SignUp */}
     {/* <RouteX/> */}
-    {<RouteX/>}
+
+    {/* Netflix Clone */}
+    {/* {<RouteX/>} */}
+
+    {/* OOP Concept*/}
+    {<OOP/>}
     </>
   );
 }
