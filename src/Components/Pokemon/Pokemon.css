@@ -1,0 +1,79 @@
+* {
+  /* border: red solid; */
+}
+.ability {
+  background-color: aliceblue;
+  border: black solid;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.pokemon-img {
+  min-height: 200px;
+  max-height: 200px;
+}
+.pokemon-card {
+  border: 2px solid black !important;
+  height: 98%;
+}
+.pokemon-card:hover {
+  box-shadow: 0 0 20px 0 wheat;
+}
+.pokemon-name {
+  font-weight: bold;
+}
+.generation-row {
+  background-color: beige;
+
+  > generation {
+    width: 80px;
+  }
+}
+.generation-btn {
+  border: 2px black solid !important;
+  font-weight: bold !important;
+  transition: 0.8s;
+}
+.generation-btn:hover {
+  background-color: rgba(51, 157, 238, 0.892);
+}
+.form-control {
+  border: 2px solid;
+  margin-right: 9px;
+}
+.detail-img {
+  width: 200px;
+  margin-bottom: 3px;
+}
+.about-poke {
+  font-weight: bold;
+}
+.base_stats {
+  height: 200px;
+  overflow-y: scroll;
+}
+.about {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.custom-loader {
+  --d: 22px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  color: #144cf4;
+  box-shadow: calc(1 * var(--d)) calc(0 * var(--d)) 0 0,
+    calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 1px,
+    calc(0 * var(--d)) calc(1 * var(--d)) 0 2px,
+    calc(-0.707 * var(--d)) calc(0.707 * var(--d)) 0 3px,
+    calc(-1 * var(--d)) calc(0 * var(--d)) 0 4px,
+    calc(-0.707 * var(--d)) calc(-0.707 * var(--d)) 0 5px,
+    calc(0 * var(--d)) calc(-1 * var(--d)) 0 6px;
+  animation: s7 1s infinite steps(8);
+}
+
+@keyframes s7 {
+  100% {
+    transform: rotate(1turn);
+  }
+}

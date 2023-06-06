@@ -3,9 +3,10 @@ import './App.css';
 // import { Footer,Footer2 } from './Components/Footer';
 // import Resturant from './Components/Basics/Resturant';
 // import UseState from './Components/Hooks/UseState';
-// import RouteX from './Components/Login&SignUp/Route';
-// import RouteX from './Components/Netflix/Route';
-import OOP from './Components/OOP/OOP';
+// import Login from './Components/Login&SignUp/Route';
+// import Netflix from './Components/Netflix/Route';
+// import OOP from './Components/OOP/OOP';
+import Pokemon from './Components/Pokemon/Route';
 
 function App() {
   return (
@@ -30,13 +31,16 @@ function App() {
     {/* <UseState/> */}
 
     {/* Login and SignUp */}
-    {/* <RouteX/> */}
+    {/* <Login/> */}
 
     {/* Netflix Clone */}
-    {/* {<RouteX/>} */}
+    {/* {<Netflix/>} */}
 
     {/* OOP Concept*/}
-    {<OOP/>}
+    {/* {<OOP/>} */}
+
+    {/* Pokemon */}
+    {<Pokemon/>}
     </>
   );
 }
