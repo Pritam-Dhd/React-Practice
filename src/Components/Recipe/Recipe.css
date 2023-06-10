@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+* {
+  font-family: "Merriweather", serif;
+}
+.input {
+  margin-right: 0.5rem;
+}
+.Search-heading {
+  text-align: center;
+  font-size: 2rem;
+  word-spacing: 2px;
+}
+.search {
+  margin: 0 5px 0 5px;
+}
+.card {
+  background-color: rgba(32, 31, 31, 0.905);
+  color: white;
+
+  width: auto;
+  box-shadow: 5px 8px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.food-img {
+  max-height: 300px;
+  height: fit-content;
+}
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.5s ease-in-out;
+}
+.food-name {
+  font-size: 18px;
+}
+
+.alphabet {
+  width: 40px;
+}
+.alphabet:hover{
+    background-color: aliceblue !important;
+    >h5{
+        color: black!important;
+        font-weight: bold;
+    }
+}
+.category{
+  font-weight: bold;
+}
+.recipe-img{
+  height:300px;
+  width: auto;
+
+}
+.instruction{
+  text-align: justify;
+  word-spacing: 2.5px;
+}
+.item::-webkit-scrollbar {
+    display: none;
+  };
+
+.custom-loader {
+  --d: 22px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  color: #144cf4;
+  box-shadow: calc(1 * var(--d)) calc(0 * var(--d)) 0 0,
+    calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 1px,
+    calc(0 * var(--d)) calc(1 * var(--d)) 0 2px,
+    calc(-0.707 * var(--d)) calc(0.707 * var(--d)) 0 3px,
+    calc(-1 * var(--d)) calc(0 * var(--d)) 0 4px,
+    calc(-0.707 * var(--d)) calc(-0.707 * var(--d)) 0 5px,
+    calc(0 * var(--d)) calc(-1 * var(--d)) 0 6px;
+  animation: s7 1s infinite steps(8);
+}
+
+@keyframes s7 {
+  100% {
+    transform: rotate(1turn);
+  }
+}

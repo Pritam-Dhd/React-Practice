@@ -5,4 +5,4 @@
 ## 4. Netflix Clone
 ## 5. OOP codes
 ## 6. Pokemon App with realtime API data
-
+## 7. Food Recipe App with API
