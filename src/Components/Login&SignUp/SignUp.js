@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link,useNavigate} from "react-router-dom";
+import { signInWithGoogle } from "./Firebase-Auth";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import Validation from "./Validation";
 import "./i.css";
 
 const Signup = () => {
+  const navigate =useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -181,6 +183,9 @@ const Signup = () => {
                   <button
                     type="button"
                     className="btn btn-link btn-floating mx-1"
+                    onClick={() => {
+                      signInWithGoogle(navigate);
+                    }}
                   >
                     <i className="fab fa-google"></i>
                   </button>

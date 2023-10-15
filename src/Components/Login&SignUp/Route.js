@@ -2,6 +2,7 @@ import React, { useState, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./Login";
 import SignUp from "./SignUp";
+import Home from "./Home";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./Route.css";
@@ -24,6 +25,7 @@ const RouteX = () => {
               <Route path="/" element={<Login />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<SignUp />} />
+              <Route path="/home" element={<Home />} />
             </Routes>
           </Suspense>
         </div>
