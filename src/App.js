@@ -3,11 +3,12 @@ import './App.css';
 // import { Footer,Footer2 } from './Components/Footer';
 // import Resturant from './Components/Basics/Resturant';
 // import UseState from './Components/Hooks/UseState';
-import Login from './Components/Login&SignUp/Route';
+// import Login from './Components/Login&SignUp/Route';
 // import Netflix from './Components/Netflix/Route';
 // import OOP from './Components/OOP/OOP';
 // import Pokemon from './Components/Pokemon/Route';
 // import Recipe from './Components/Recipe/Route';
+import Esewa from './Components/Esewa/Route';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
     {/* <UseState/> */}
 
     {/* Login and SignUp */}
-    <Login/>
+    {/* <Login/> */}
 
     {/* Netflix Clone */}
     {/* {<Netflix/>} */}
@@ -45,6 +46,9 @@ function App() {
 
     {/* Recipe */}
     {/* {<Recipe/>} */}
+
+    {/* Esewa */}
+    {<Esewa/>}
     </>
   );
 }
