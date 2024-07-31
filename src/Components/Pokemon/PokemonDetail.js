@@ -44,7 +44,7 @@ const PokemonDetail = ({
       }
     };
     fetchData();
-  }, []);
+  }, [speciesUrl]);
   const toggleModal = (modalId) => {
     if (activeModal === modalId) {
       setActiveModal(null);

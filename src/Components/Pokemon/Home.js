@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import Navbar from "./Navbar";
 import Loading from "./Loading";
-import Generation from "./Generation";
+// import Generation from "./Generation";
 import axios from "axios";
 import "./Pokemon.css";
 

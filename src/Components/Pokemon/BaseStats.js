@@ -15,7 +15,7 @@ const BaseStats = (props) => {
 
   useEffect(() => {
     calculateTotalStats();
-  }, []);
+  });
 
   return (
     <>
