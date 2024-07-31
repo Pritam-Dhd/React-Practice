@@ -6,9 +6,9 @@ import './App.css';
 // import Login from './Components/Login&SignUp/Route';
 // import Netflix from './Components/Netflix/Route';
 // import OOP from './Components/OOP/OOP';
-// import Pokemon from './Components/Pokemon/Route';
+import Pokemon from './Components/Pokemon/Route';
 // import Recipe from './Components/Recipe/Route';
-import Esewa from './Components/Esewa/Route';
+// import Esewa from './Components/Esewa/Route';
 
 function App() {
   return (
@@ -42,13 +42,13 @@ function App() {
     {/* {<OOP/>} */}
 
     {/* Pokemon */}
-    {/* {<Pokemon/>} */}
+    {<Pokemon/>}
 
     {/* Recipe */}
     {/* {<Recipe/>} */}
 
     {/* Esewa */}
-    {<Esewa/>}
+    {/* {<Esewa/>} */}
     </>
   );
 }

@@ -7,7 +7,7 @@ const Home = () => {
   useEffect(() => {
     const generateSignature = () => {
       const dataToSign =
-        "total_amount=110,transaction_uuid=11das-y43-32482,product_code=EPAYTEST";
+        "total_amount=110,transaction_uuid=11das-y43-66482,product_code=EPAYTEST";
       const secretKey = "8gBm/:&EnhH.1/q";
 
       const hash = CryptoJS.HmacSHA256(dataToSign, secretKey);
@@ -28,7 +28,7 @@ const Home = () => {
         <input type="text" id="amount" name="amount" value="100" required />
         <input type="text" id="tax_amount" name="tax_amount" value="10" required />
         <input type="text" id="total_amount" name="total_amount" value="110" required />
-        <input type="text" id="transaction_uuid" name="transaction_uuid" value="11das-y43-32482" required />
+        <input type="text" id="transaction_uuid" name="transaction_uuid" value="11das-y43-66482" required />
         <input type="text" id="product_code" name="product_code" value="EPAYTEST" required />
         <input type="text" id="product_service_charge" name="product_service_charge" value="0" required />
         <input type="text" id="product_delivery_charge" name="product_delivery_charge" value="0" required />
