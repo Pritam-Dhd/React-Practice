@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { BiPlay } from "react-icons/bi";
 import { AiOutlinePlus } from "react-icons/ai";
 
-const apikey = "06404c70a1fb436306f34b71efc9bc63";
+const apikey = process.env.REACT_APP_NETFLIX_API_KEY;
 const url = "https://api.themoviedb.org/3";
 const popular = "popular";
 const upcoming = "upcoming";
