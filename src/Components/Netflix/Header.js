@@ -7,11 +7,9 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light header">
         <div className="container-fluid">
-          <a className="navbar-brand">
-            <Link to="/">
-              <img src={logo} alt="..." height="36" />
-            </Link>
-          </a>
+          <Link to="/">
+            <img src={logo} alt="..." height="36" />
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
