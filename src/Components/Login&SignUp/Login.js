@@ -38,7 +38,7 @@ const Login = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     // Continue with form submission
-    console.log(email, password);
+    console.log("Login form submitted");
   };
 
   return (
